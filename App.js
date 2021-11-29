@@ -6,7 +6,6 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Hello World</Text>
-      <Button color="#000" title="Click Me"/>
       <StatusBar style="auto" />
     </View>
   );
@@ -18,9 +17,5 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
-  },
-  btn:{
-    backgroundColor:"#000",
-    color:"#fff",
   },
 });
